@@ -9,5 +9,6 @@ namespace parcial.ViewModel
     public class RegistroRemesaViewModel
     {
         public RegistroRemesa? FormRemesa { get; set; }
+        public List<RegistroRemesa>? ListarRemesa { get; set; }
     }
 }
