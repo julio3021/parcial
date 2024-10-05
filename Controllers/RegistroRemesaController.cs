@@ -30,7 +30,7 @@ namespace parcial.Controllers
             var viewModel = new RegistroRemesaViewModel
             {
                 FormRemesa = new RegistroRemesa(),  // Objeto vacío para el formulario
-
+                ListarRemesa = remesas.ToList() // Lista de remesas para la tabla
             };
 
             return View(viewModel);
