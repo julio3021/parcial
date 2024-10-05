@@ -9,4 +9,6 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<parcial.Models.RegistroRemesa> DataRegistroRemesa { get; set; }
+    public DbSet<parcial.Models.HistorialConversion> HistorialConversiones { get; set; }
 }
